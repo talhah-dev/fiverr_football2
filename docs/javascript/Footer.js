@@ -49,11 +49,11 @@ if (footer) {
               <div>
                 <p class="text-sm font-extrabold tracking-wide text-white">Quick Links</p>
                 <ul class="mt-4 space-y-3 text-sm text-emerald-50/75">
-                  <li><a class="transition hover:text-white" href="./index.html">Home</a></li>
-                  <li><a class="transition hover:text-white" href="#stats">Why Choose Us</a></li>
-                  <li><a class="transition hover:text-white" href="#">What We Offer</a></li>
-                  <li><a class="transition hover:text-white" href="#">FAQ</a></li>
-                  <li><a class="transition hover:text-white" href="#contact-section">Book Now</a></li>
+                  <li><a class="transition text-emerald-50/75 hover:text-white" href="./index.html">Home</a></li>
+                  <li><a class="transition text-emerald-50/75 hover:text-white" href="#stats">Why Choose Us</a></li>
+                  <li><a class="transition text-emerald-50/75 hover:text-white" href="#">What We Offer</a></li>
+                  <li><a class="transition text-emerald-50/75 hover:text-white" href="#">FAQ</a></li>
+                  <li><a class="transition text-emerald-50/75 hover:text-white" href="#contact-section">Book Now</a></li>
                 </ul>
               </div>
 
@@ -86,14 +86,14 @@ if (footer) {
                     <span class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/10 text-white backdrop-blur-sm">
                       <i class="fa-solid fa-phone"></i>
                     </span>
-                    <span>+92 000 0000000</span>
+                    <span class="text-emerald-50/75">+92 000 0000000</span>
                   </a>
 
                   <a href="mailto:info@saleemfootballfield.com" class="flex items-center gap-3 transition hover:text-white">
                     <span class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/10 text-white backdrop-blur-sm">
                       <i class="fa-solid fa-envelope"></i>
                     </span>
-                    <span>info@saleemfootballfield.com</span>
+                    <span class="text-emerald-50/75">info@saleemfootballfield.com</span>
                   </a>
                 </div>
 
