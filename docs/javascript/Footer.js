@@ -53,7 +53,7 @@ if (footer) {
                   <li><a class="transition hover:text-white" href="#stats">Why Choose Us</a></li>
                   <li><a class="transition hover:text-white" href="#">What We Offer</a></li>
                   <li><a class="transition hover:text-white" href="#">FAQ</a></li>
-                  <li><a class="transition hover:text-white" href="#">Book Now</a></li>
+                  <li><a class="transition hover:text-white" href="#contact-section">Book Now</a></li>
                 </ul>
               </div>
 

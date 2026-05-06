@@ -20,7 +20,7 @@ if (navbar) {
           </a>
 
           <a
-            href="#"
+            href="#contact-section"
             id="ctaBtn"
             class="inline-flex shrink-0 items-center justify-center rounded-full bg-white px-4 py-2.5 text-xs font-black uppercase tracking-[0.22em] text-slate-950 transition hover:bg-lime-200 sm:px-6 sm:text-sm"
           >
