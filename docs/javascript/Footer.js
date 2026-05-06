@@ -9,6 +9,8 @@ if (footer) {
         <img
           src="https://images.unsplash.com/photo-1486286701208-1d58e9338013?auto=format&fit=crop&w=1600&q=80"
           alt="Football field background"
+          loading="lazy"
+          decoding="async"
           class="h-full w-full object-cover"
         />
         <div class="absolute inset-0 bg-[#000]/50"></div>

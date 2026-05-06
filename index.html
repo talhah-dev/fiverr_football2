@@ -28,6 +28,13 @@
         content="Book casual matches, join training sessions, and enjoy football in a simple and friendly environment." />
     <meta name="twitter:image" content="https://saleemfootballfield.com/docs/assets/img2.png" />
     <meta name="theme-color" content="#115631" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preload" as="image" href="/docs/assets/img2.png" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -39,8 +46,6 @@
 <body class="m-0 bg-slate-950 text-white">
 
     <div id="bottomToTopScroll"></div>
-
-    <div id="navbar"></div>
 
     <div class="relative min-h-screen overflow-hidden">
 
@@ -107,19 +112,19 @@
                 <div class="mx-auto grid max-w-7xl gap-4 px-4 sm:grid-cols-2 lg:grid-cols-4 sm:px-6 lg:px-8">
                     <div class="overflow-hidden rounded-3xl">
                         <img src="https://images.unsplash.com/photo-1598399615261-adafbbb044fc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Football field view"
-                            class="h-72 w-full object-cover" />
+                            class="h-72 w-full object-cover" loading="lazy" decoding="async" />
                     </div>
                     <div class="overflow-hidden rounded-3xl">
                         <img src="https://images.unsplash.com/photo-1526232761682-d26e03ac148e?q=80&w=1129&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Football ground"
-                            class="h-72 w-full object-cover" />
+                            class="h-72 w-full object-cover" loading="lazy" decoding="async" />
                     </div>
                     <div class="overflow-hidden rounded-3xl">
                         <img src="https://images.unsplash.com/photo-1560272564-c83b66b1ad12?q=80&w=749&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Football training scene"
-                            class="h-72 w-full object-cover" />
+                            class="h-72 w-full object-cover" loading="lazy" decoding="async" />
                     </div>
                     <div class="overflow-hidden rounded-3xl">
                         <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Football action moment"
-                            class="h-72 w-full object-cover" />
+                            class="h-72 w-full object-cover" loading="lazy" decoding="async" />
                     </div>
                 </div>
             </section>
@@ -299,7 +304,8 @@
                                         <div
                                             class="mt-4 rounded-2xl overflow-hidden border border-slate-200 bg-slate-50">
                                             <img src="./docs/assets/img1.avif" alt="Football field experience"
-                                                class="h-72 sm:h-[30rem] w-full object-cover" />
+                                                class="h-72 sm:h-[30rem] w-full object-cover" loading="lazy"
+                                                decoding="async" />
                                         </div>
 
                                         <div
@@ -464,7 +470,8 @@
             <section class="relative isolate overflow-hidden py-20 sm:py-32">
                 <div class="absolute inset-0">
                     <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1600&q=80"
-                        alt="Football field under stadium lights" class="h-full w-full object-cover" />
+                        alt="Football field under stadium lights" class="h-full w-full object-cover" loading="lazy"
+                        decoding="async" />
                     <div class="absolute inset-0 bg-[#0a211f]/65"></div>
                 </div>
 
@@ -666,7 +673,8 @@
                                         <div
                                             class="mt-4 rounded-2xl overflow-hidden border border-slate-200 bg-slate-50">
                                             <img src="https://images.unsplash.com/photo-1600679472829-3044539ce8ed?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Football field FAQ preview"
-                                                class="h-64 sm:h-96 w-full object-cover" />
+                                                class="h-64 sm:h-96 w-full object-cover" loading="lazy"
+                                                decoding="async" />
                                         </div>
                                     </div>
                                 </div>
@@ -944,8 +952,6 @@
             <div id="footer"></div>
         </div>
     </div>
-
-    <div id="bottomToTopScroll"></div>
 
     <script src="./docs/javascript/global.js"></script>
     <script src="./docs/javascript/Navbar.js"></script>
